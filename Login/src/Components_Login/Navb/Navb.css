@@ -1,0 +1,81 @@
+body{
+  background: #FFFBF8;
+}
+
+.Overall{
+  /* background-color: blue; */
+  display:flex;
+  justify-content: space-between;
+  margin : 30px 70px;
+  padding : 0px 0px;
+  list-style-type: none;
+}
+
+.Right{
+  /* background-color: aqua; */
+  /* margin-top: 32px; */
+  display: flex;
+  height : 40px;
+}
+
+.Right1{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.Right2{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.red{
+  background: red;
+  padding: 5px 11px;
+  color : white;
+  font-size : 20px;
+  font-weight: 600;
+  border-radius : 6px;
+}
+
+.red:hover{
+  background: #DA0303;
+}
+
+.red-text{
+  color : red;
+  display: flex;
+  font-size : 27px;
+  font-weight : 600;
+  /* background: black; */
+}
+
+.hover:hover{
+  cursor : pointer;
+}
+
+.gray{
+  font-size : 20px;
+  border-radius : 6px;
+  padding : 5px 11px;
+}
+
+.gray:hover{
+  background : #EEEEEE;
+}
+
+.element{
+  font-size: 30px;
+  margin-top: -5px;
+  color : #E4E0E0;
+  font-weight: 200;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.black{
+  color : black;
+}
